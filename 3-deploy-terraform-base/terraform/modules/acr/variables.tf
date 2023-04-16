@@ -2,7 +2,7 @@ variable "name" {
 }
 
 variable "location" {
-  default = "uksouth"
+  default = "eastus2"
 }
 
 variable "environment" {
