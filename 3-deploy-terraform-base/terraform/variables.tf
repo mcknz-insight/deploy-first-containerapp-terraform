@@ -7,12 +7,12 @@ variable "app_name" {
 variable "location" {
   type        = string
   description = "Location of Resources"
-  default     = "uksouth"
+  default     = "eastus2"
 }
 
 variable "environment" {
   type        = string
   description = "Environment"
-  default     = "production"
+  default     = "development"
 }
 
