@@ -20,26 +20,26 @@ In this tutorial/lab, you will learn:
 
 To run this tutorial/lab successfully, please review each folder - inside each folder has a number of *.md files, starting from 1..2 etc. complete each one in number sequence 1...2...3...etc
 
-- [Review Prerequisities](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/prerequisites.md)
+- [Review Prerequisities](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/prerequisites.md)
 
-- [Lab 1 - Initial Setup](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/1-setup)
+- [Lab 1 - Initial Setup](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/1-setup)
     - Service principal creation
     - Configure GitHub secrets with newly created service principal
 
-- [Lab 2 - Setup For Terraform](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/2-setup-terraform)
+- [Lab 2 - Setup For Terraform](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/2-setup-terraform)
     - Setup remote storage account/blob for Terraform .tfstate files
 
-- [Lab 3 - Deploy Terraform Base](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/3-deploy-terraform-base)
+- [Lab 3 - Deploy Terraform Base](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/3-deploy-terraform-base)
     - Enabling GitHub Action to begin deploying Azure resources
     - Deploys Azure resources ready to begin deploying Container Application
 
-- [Lab 4 - Build & Deploy Application](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/4-Build-deploy-application-to-ACR)
+- [Lab 4 - Build & Deploy Application](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/4-Build-deploy-application-to-ACR)
     - Build and deploy test application to Azure Container Registry
 
-- [Lab 5 - Deploy Container App using Terraform](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/5-deploy-containerapp-terraform)
+- [Lab 5 - Deploy Container App using Terraform](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/5-deploy-containerapp-terraform)
     - Deploy container environmenet and application with the image created in lab 4.
 
-- [Lab 6 - Monitoring & Alerting](https://github.com/thomast1906/deploy-first-containerapp-terraform/tree/main/6-monitoring-and-alerting)
+- [Lab 6 - Monitoring & Alerting](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/tree/main/6-monitoring-and-alerting)
     - Reviewing Application Insights and Log Analytics data generated from deployed container app
 
 # Deployment Overview

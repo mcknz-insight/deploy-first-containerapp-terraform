@@ -4,10 +4,10 @@ The purpose of this lab is to enable and run the GitHub Action to Terraform and 
 
 ## Run the GitHub Action
 1. You may want to update these terraform variables prior to running the action:
-- [app_name](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L4) - Used as a concat for the various resources, such as resource group name etc
-- [location](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L10) - Location for Azure resources to be deployed
-- [environment](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L16) - A meaningful environment name, I used `production` as default. This variable is used as an Azure tag to reference all resources if needed.
-3. Apply the below to the bottom of the GitHub action [here](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/.github/workflows/main.yml)
+- [app_name](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L4) - Used as a concat for the various resources, such as resource group name etc
+- [location](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L10) - Location for Azure resources to be deployed
+- [environment](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/5-Deploy-Container-App-Terraform/terraform/variables.tf#L16) - A meaningful environment name, I used `production` as default. This variable is used as an Azure tag to reference all resources if needed.
+3. Apply the below to the bottom of the GitHub action [here](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/.github/workflows/main.yml)
 
 ```
     - name: 'Terraform Format ACA'

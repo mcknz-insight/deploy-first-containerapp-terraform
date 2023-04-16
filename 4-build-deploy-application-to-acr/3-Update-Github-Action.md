@@ -12,7 +12,7 @@ To allow the GitHub action to successfully Build and deploy the image to the Azu
 - REGISTRY_USERNAME - Username
 - REGISTRY_PASSWORD - Password
 
-3. Apply the below to the bottom of the GitHub action [here](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/.github/workflows/main.yml)
+3. Apply the below to the bottom of the GitHub action [here](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/.github/workflows/main.yml)
 
 - Notice the reference of `${{ github.sha }} ` ? This will tag your image with the current GitHub sha.
 - Within tags value, please update `firstcontainerappacracr` to your ACR

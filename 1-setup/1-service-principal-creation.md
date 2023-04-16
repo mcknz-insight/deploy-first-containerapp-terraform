@@ -5,12 +5,12 @@ The purpose of service principal creation is to allow authentication from the Gi
 ## Create service principal
 
 1. Ensure you have ran `az-login`
-2. Review [1-service-principal-creation.sh](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/1-setup/scripts/1-service-principal-creation.sh)
+2. Review [1-service-principal-creation.sh](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/1-setup/scripts/1-service-principal-creation.sh)
 3. Run the script `./scripts/1-service-principal-creation.sh`
 4. The script will create:
 - A service connection called `firstContainerAppGitHubAction`
 - Grant contributor access to your subscription for the newly created service connection.
-5. Review output of script, it will display values that you will need in the next section [2-configure-github-secrets.md](https://github.com/thomast1906/deploy-first-containerapp-terraform/blob/main/1-setup/2-configure-github-secrets.md)example output:
+5. Review output of script, it will display values that you will need in the next section [2-configure-github-secrets.md](https://github.com/mcknz-insight/deploy-first-containerapp-terraform/blob/main/1-setup/2-configure-github-secrets.md)example output:
 ```
 {
   "clientId": "XXXXXX",
